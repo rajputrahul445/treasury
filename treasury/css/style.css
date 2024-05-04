@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'AvenirLTStdBook';
+    src: url('../fonts/AvenirLTStdBook.eot');
+    src: url('../fonts/AvenirLTStdBook.eot') format('embedded-opentype'),
+         url('../fonts/AvenirLTStdBook.woff2') format('woff2'),
+         url('../fonts/AvenirLTStdBook.woff') format('woff'),
+         url('../fonts/AvenirLTStdBook.ttf') format('truetype'),
+         url('../fonts/AvenirLTStdBook.svg#AvenirLTStdBook') format('svg');
+}
+
+body {background: #fff;overflow: auto;font-size: 14px;overflow-x: hidden;padding-top: 0; font-family: 'AvenirLTStdBook';}
+a, a:hover, a:focus {  text-decoration: none;  transition: all 400ms ease; }
+img{max-width: 100%}
+h1, h2, h3, h4, h5, h6 { font-weight: 700; }
+input, button { outline: none; box-shadow: none;  }
+.bodyWrp {
+    background: url(../images/texture.png) 0 0 no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.midFormWrp {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo img {
+    max-width: 180px;
+}
+
+.left {
+    padding-top: 50px;
+    background: #3a7c97;
+    width: 45%;
+}
+
+.right {
+    background: #f0ad2d;
+    padding: 35px;
+    width: 45%;
+}
+.content{
+    margin-top: 95px;
+    padding: 30px;
+    padding-bottom: 0;
+}
+.content h1 {
+    margin: 0;
+    font-size: 26px;
+    color: #fff;
+}
+.right h3 {
+    font-size: 24px;
+    color: #3a7c97;
+    margin: 0 0 5px;
+}
+
+.right h4 {
+    margin: 0 0 20px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.right label {
+    margin: 0 0 5px;
+    color: #231f20;
+}
+.right label a{color: inherit;}
+.form-control {
+    height: auto;
+    font-size: 14px;
+    padding: 5px 15px;
+    border: solid 1px #585756;
+}
+.colorBtn {
+    background: #3a7c97;
+    color: #fff;
+    border: none;
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
