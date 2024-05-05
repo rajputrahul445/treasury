@@ -50,12 +50,14 @@ input, button { outline: none; box-shadow: none;  }
 
 .left {
     padding-top: 50px;
-    background: #3a7c97;
+    background: url(../images/gr-texture3.png) 0 0 no-repeat;
+    background-size: cover !important;
     width: 45%;
 }
 
 .right {
-    background: #f0ad2d;
+    background: url(../images/yl-texture.png) 0 0 no-repeat;
+    background-size: cover !important;
     padding: 35px;
     width: 45%;
 }
@@ -89,15 +91,30 @@ input, button { outline: none; box-shadow: none;  }
 .form-control {
     height: auto;
     font-size: 14px;
-    padding: 5px 15px;
+    padding: 7px 15px;
     border: solid 1px #585756;
 }
 .colorBtn {
-    background: #3a7c97;
+    background: url(../images/btn-bg.png) 0 0 no-repeat;
+    background-size: cover !important;
     color: #fff;
     border: none;
     width: 100%;
     padding: 10px 10px;
     border-radius: 8px;
     cursor: pointer;
+}
+.logout .right.text-center img {
+    max-width: 140px;
+}
+
+.logout .right.text-center h3 {
+    margin: 50px 0 10px;
+    font-size: 20px;
+}
+.logout .right.text-center h4{
+    font-size: 16px;
+}
+.mobile{
+    display: none;
 }

@@ -8,6 +8,12 @@
     .bodyWrp {
         padding-bottom: 40px;
     }
+    .mobile{
+        display: inline-block;
+    }
+    .desktop{
+        display: none;
+    }
     .left, .right {
         width: 100%;
     }
